@@ -1,0 +1,10 @@
+**/api/Slim/
+**/api/tests/
+**/fonts/
+**/img/
+**/images/
+**/media/
+**/referensi/
+**/tools/
+**/vendor/
+**/*.zip

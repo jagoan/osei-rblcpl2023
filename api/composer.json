@@ -1,0 +1,29 @@
+{
+    "name": "slim/slim",
+    "type": "library",
+    "description": "Slim Framework, a PHP micro framework",
+    "keywords": ["microframework","rest","router"],
+    "homepage": "http://github.com/codeguy/Slim",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "info@joshlockhart.com",
+            "homepage": "http://www.joshlockhart.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+	"firebase/php-jwt": "^5.0",
+	"phpmailer/phpmailer": "^6.0",
+        "shuchkin/simplexls": "^0.10.3",
+        "shuchkin/simplexlsx": "^1.0"
+    },
+    "suggest": {
+        "ext-mcrypt": "Required for HTTP cookie encryption",
+        "phpseclib/mcrypt_compat": "Polyfil for mcrypt extension"
+    },
+    "autoload": {
+        "psr-0": { "Slim": "." }
+    }
+}
